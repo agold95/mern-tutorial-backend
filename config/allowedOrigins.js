@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    "mern-tutorial-backend.onrender.com"
+    "https://mern-tutorial-frontend-wko4.onrender.com/"
 ];
 
 module.exports = allowedOrigins;
