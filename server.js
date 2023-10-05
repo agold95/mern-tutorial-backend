@@ -18,7 +18,9 @@ connectDB()
 
 app.use(logger)
 
-app.use(cors(corsOptions))
+app.use(cors({
+    origin: 'https://mern-tutorial-frontend-wko4.onrender.com'
+}))
 
 app.use(express.json())
 
